@@ -42,7 +42,6 @@ for group in groupList:
          print('startDownload file %s' % (fileUrl))
          urllib.request.urlretrieve(fileUrl, dest_file)
          print('endDownload file %s' % (fileUrl))
-
        except:
          print ("fail" + fileUrl)   
 

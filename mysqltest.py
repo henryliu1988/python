@@ -14,4 +14,4 @@ try:
 except Exception as e:
     raise e
 finally:
-    print " mysql 连接成功！"
+    print ("mysql 连接成功！")
